@@ -1,0 +1,37 @@
+[
+    {
+        "lbl":"user Name",
+        "lblCols":"5",
+        "type":"text",
+        "name":"uid",
+        "errMsgCols":"4",
+        "hasError":false,
+        "value":"",
+        "isRequired":true,
+        "errMsg":"",
+        "inputCols":"3",
+        "placeholder":"email",
+        "criteria":[
+            "REQUIRED",
+            "EMAIL"
+        ]
+    },
+    {
+        "lbl":"password",
+        "lblCols":"5",
+        "type":"text",
+        "name":"pwd",
+        "errMsgCols":"4",
+        "hasError":false,
+        "value":"",
+        "isRequired":true,
+        "errMsg":"",
+        "inputCols":"3",
+        "placeholder":"password",
+        "criteria":[
+            "REQUIRED",
+            "MIN5CHAR"
+        ]
+    }
+   
+]

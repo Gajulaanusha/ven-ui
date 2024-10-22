@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/services/validations.js", "src/services/functions.js", "src/services/cookies.js", "src/services/ajax.js", "src/components/shared/Toaster/Toaster.jsx", "src/components/shared/Toaster/Toaster.test.jsx", "src/components/shared/Toaster/index.js", "src/components/shared/TextArea/TextArea.jsx", "src/components/shared/TextArea/TextArea.test.jsx", "src/components/shared/TextArea/index.jsx", "src/components/shared/Modal/Modal.jsx", "src/components/shared/Modal/Modal.test.jsx", "src/components/shared/Modal/index.js", "src/components/shared/Loader/Loader.jsx", "src/components/shared/Loader/Loader.test.jsx", "src/components/shared/Loader/index.js", "src/components/shared/Input/Input.jsx", "src/components/shared/Input/Input.test.jsx", "src/components/shared/Input/index.js", "src/components/shared/AppTable/Pagination.jsx", "src/components/shared/AppTable/index.js", "src/components/shared/AppTable/AppTable.jsx", "src/components/shared/AppTable/AppTable.test.jsx", "src/components/shared/AppForm/index.js", "src/components/shared/AppForm/AppForm.jsx", "src/components/shared/AppForm/AppForm.test.jsx", "src/components/Menu/Menu.jsx", "src/components/Menu/Menu.test.jsx", "src/components/Menu/index.js", "src/components/Login/Login.jsx", "src/components/Login/Login.test.jsx", "src/components/Login/index.js", "src/components/Landing/Landing.jsx", "src/components/Landing/Landing.test.jsx", "src/components/Landing/index.js", "src/components/Home/index.js", "src/components/Home/Home.jsx", "src/components/Home/Home.test.jsx", "src/components/Header/index.js", "src/components/Header/Header.jsx", "src/components/Header/Header.test.jsx", "src/components/Footer/index.js", "src/components/Footer/Footer.jsx", "src/components/Footer/Footer.test.jsx", "src/app/layout.jsx", "src/app/page.js"],
+  "exclude": ["node_modules"]
+}
